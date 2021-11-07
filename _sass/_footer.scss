@@ -1,0 +1,41 @@
+// =======================================
+//  Footer
+//  Mmmmmm... Sticky. Don't forget to
+//  include scripts.js for dynamic sizing
+// =======================================
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f8f8f8;
+  border-top: $border;
+  text-align: left;
+  .footer-inner {
+    margin: 0 auto;
+    padding: 2rem 0;
+    max-width: $column-width;
+  }
+  img {
+    margin-bottom: 2rem;
+  }
+  p, .social-icons {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-icons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: $brand-color;
+    @include for-tablet-portrait-up {
+      li:first-child {
+        margin-left: 0;
+      }
+    };
+  }
+  .last-word {
+    margin-top: 3rem;
+  }
+}
