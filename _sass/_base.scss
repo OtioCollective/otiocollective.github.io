@@ -4,9 +4,10 @@
 
 html, body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure, span, a {
     margin: 0;
     padding: 0;
+    transition: ease 0.4s;
 }
 
 html, body {
@@ -119,7 +120,7 @@ img, video {
   max-width: 100%;
   vertical-align: middle;
   display: block;
-  margin: 0 auto;
+  margin: 1rem 0;
 }
 iframe {
   width: 100%;

@@ -11,7 +11,10 @@ footer {
   width: 100%;
   background: #f8f8f8;
   border-top: $border;
-  text-align: left;
+  text-align: center;
+  @include for-tablet-portrait-up {
+    text-align: left;
+  };
   .footer-inner {
     margin: 0 auto;
     padding: 2rem 0;
@@ -23,6 +26,10 @@ footer {
   p, .social-icons {
     margin-left: auto;
     margin-right: auto;
+    @include for-tablet-portrait-up {
+      margin-left: 0;
+      margin-right: 0;
+    };
   }
   .social-icons {
     margin-top: 1rem;

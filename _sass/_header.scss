@@ -3,60 +3,14 @@
 }
 .navbar {
   @extend .flexbox;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-between;
-  max-width: $column-width;
-  margin: 0px auto;
-  border-left: $border;
-  border-right: $border;
-  @media (min-width: 1260px) {
-    margin: 0;
-    border: 0;
-    max-width: 100%;
-    justify-content: center;
-  };
-  .brand {
-    padding: 2rem 10px;
-    @include for-tablet-portrait-up {
-      padding: 2rem;
-    };
-    @media (min-width: 1260px) {
-      padding-left: 1rem;
-    };
-    @media (min-width: 1290px) {
-      padding: 2rem;
-    };
-  }
-  .middle {
-    display: none;
-    @media (min-width: 1260px) {
-      display: block;
-      width: $column-width;
-      border-left: $border;
-      border-right: $border;
-    };
-  }
-  .badge {
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-    @include for-tablet-portrait-up {
-      padding-right: 2rem;
-    };
-    @media (min-width: 1260px) {
-      padding: 1rem 1rem 1rem 2rem;
-      width: 140px;;
-    };
-    @media (min-width: 1290px) {
-      width: 155px;
-      padding: 1rem 1rem 1rem 2rem;
-    };
-    .onepercent {
-      max-width: 60px;
-    }
-  }
+  // border-bottom: $border;
+  padding: 1rem 2rem;
 }
-
+.brand {
+  max-width: 10rem;
+}
 
 // Hamburger with thanks to Jonathon Suh
 .hamburger {
