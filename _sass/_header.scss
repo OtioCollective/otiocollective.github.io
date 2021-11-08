@@ -1,15 +1,21 @@
 .site-header {
-  border-bottom: $border;
+  background: #fff;
 }
 .navbar {
   @extend .flexbox;
   align-items: center;
   justify-content: space-between;
-  // border-bottom: $border;
-  padding: 1rem 2rem;
+  border-bottom: $border;
+  padding: 2rem 0;
 }
 .brand {
-  max-width: 10rem;
+  max-width: 4rem;
+  img {
+    margin-bottom: 0;
+  }
+  @include for-tablet-landscape-up {
+    max-width: 7rem;
+  };
 }
 
 // Hamburger with thanks to Jonathon Suh

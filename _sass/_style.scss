@@ -3,6 +3,14 @@
 // Columns on mobile, rows on desktop
 // Desktop rows are space-between justified and flex-start aligned
 // ------------
+.container {
+  max-width: $column-width;
+  margin: 0 auto;
+  padding: 0 10px;
+  @include for-desktop-up {
+    padding: 0;
+  };
+}
 .flexbox {
   display: flex;
   align-items: flex-start;
@@ -14,89 +22,29 @@
     align-items: flex-start;
   };
 }
-.container {
-  max-width: $column-width;
-  margin: 0 auto;
-}
-.masthead-wrapper {
-  padding-top: 0;
-  background: url('/assets/img/bg4.jpeg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-}
-.masthead {
-  padding: 1rem 2rem 9rem;
-  blockquote {
-    font-style: normal;
-    border: 0;
-    max-width: 100%;
-    padding: 0;
-    h1 {
-      max-width: 100%;
-      font-size: 54px;
-      font-weight: 700;
-      line-height: 1.2;
-      text-shadow: 0 0 12px rgba(255,255,255,0.6);
-    }
-    .source {
-      display: flex;
-      align-items: flex-start;
-      justify-content: flex-end;
-      color: #000;
-      text-shadow: 0 0 4px rgba(255,255,255,0.3);
-      p {
-        max-width: none;
-        line-height: normal;
-        font-size: 1.6rem;
-      }
-      .mdash {
-        padding-right: 1rem;
-      }
-      .source-name {
-        max-width: none;
-        line-height: normal;
-      }
-      .source-reference {
-        font-size: 1.2rem;
-      }
-    }
-  }
-}
 .intro {
-  margin: -10rem auto 5rem;
-  box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3);
-  background: rgba(255, 255, 255, 1);
-  -webkit-backdrop-filter: blur(7px);
-  backdrop-filter: blur(7px);
-  border-radius: 12px;
-  padding: 4rem;
-  text-align: center;
-  max-width: 780px;
-  .button {
-    padding: 12px 20px;
-    font-size: 1.2rem;
-    &:first-child {
-      margin-right: 1rem;
-    }
-  }
-  p {
-    margin-left: auto;
-    margin-right: auto;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+  .link-tiles {
+    padding-bottom: 1rem;
+    border-bottom: $border;
   }
 }
 .lead {
+  @extend h1 ;
   font-size: 1.4rem;
-  max-width: 100%;
-  color: #000;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .button {
+  font-size: 0.8rem;
   text-decoration: none;
   background: #f2e9ff;
   padding: 5px 8px;
   border: 1px solid transparent;
   border-radius: 4px;
+  @include for-big-phones-up {
+    font-size: 1rem;
+  }
   &:hover {
     text-decoration: none;
     border-color: darken(#f2e9ff, 15%);
@@ -105,14 +53,47 @@
     }
   }
 }
+.button-group {
+  margin-top: 2rem;
+  .button {
+    margin-right: 10px;
+    @include for-big-phones-up {
+      margin-right: 1rem;
+    }
+  }
+}
+.link-para {
+  text-align: right;
+  @media (min-width: 500px) {
+    text-align: left;
+  }
+}
 .link-tiles {
   @extend .flexbox;
   justify-content: flex-start;
 }
 .link-tile {
-  flex: 0 1 240px;
-  margin-right: 2rem;
-  img {
-    margin-bottom: 1rem;
+  flex: 0 1 100%;
+  margin-bottom: 2rem;
+  @media (min-width: 500px) {
+    margin-right: 2rem;
+  }
+  @media (min-width: 500px) and (max-width: 749px) {
+    flex: 0 1 46.2%;
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  };
+  @media (min-width: 750px) and (max-width: 999px) {
+    flex: 0 1 30.6%;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 1000px) {
+    flex: 0 1 22.6%;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
   }
 }

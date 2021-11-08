@@ -9,6 +9,12 @@
 .small {
   font-size: $small;
 }
+.monospace {
+  font-family: $monospace-font-family;
+}
+.space-below {
+  margin-bottom: 3rem;
+}
 .text-left {
   text-align: left;
 }
