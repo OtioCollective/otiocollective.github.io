@@ -68,6 +68,40 @@
     text-align: left;
   }
 }
+.pullquote {
+  float: right;
+  padding: 2rem;
+  background: #f2e9ff;
+  width: 500px;
+  margin: 2rem 0 2rem 2rem;
+  blockquote {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-style: normal;
+    color: #000;
+    span {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .source {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      color: #000;
+      .mdash {
+        padding-right: 1rem;
+      }
+      .source-name {
+        max-width: none;
+        line-height: normal;
+      }
+      .source-reference {
+        font-size: $small;
+      }
+    }
+}
 .link-tiles {
   @extend .flexbox;
   justify-content: flex-start;
