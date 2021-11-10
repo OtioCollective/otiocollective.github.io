@@ -70,6 +70,18 @@ body_id: homepage
       <p class="link-para button-group space-below"><a class="button" href="https://join.slack.com/t/otioworkspace/shared_invite/zt-xmq4i3g5-NCcsdBywskh68vgqeL8NKA" target="_blank">Join us on Slack <span>-></span></a></p>
 
       <div class="link-tiles">
+
+        {% for article in site.data.readinglist %}
+          <div class="link-tile">
+            <p class="monospace">{{ forloop.index }}.</p>
+            <img src="/assets/img/{{ article.image }}" alt="{{ article.title }}" />
+            <p>{{ article.blurb }}</p>
+            <p class="link-para"><a class="button" href="{{ article.link }}" target="_blank">{{ article.linktext }} <span>-></span></a></p>
+          </div>
+        {% endfor %}
+
+        <hr />
+
         <div class="link-tile">
           <p class="monospace">01.</p>
           <img src="/assets/img/carboncapture.png" alt="538 illustration" />

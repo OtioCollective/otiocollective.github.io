@@ -1,65 +1,71 @@
-- title: The Mythology of Work
-  blurb: 'Eight Myths that Keep Your Eyes on the Clock and Your Nose to the Grindstone.'
-  linktext: 'CrimethInc'
+- title: "The Mythology of Work"
+  blurb: "Eight Myths that Keep Your Eyes on the Clock and Your Nose to the Grindstone."
+  linktext: "CrimethInc"
   image: crimethink.jpeg
-  link: 'https://crimethinc.com/2018/09/03/the-mythology-of-work-eight-myths-that-keep-your-eyes-on-the-clock-and-your-nose-to-the-grindstone'
+  link: "https://crimethinc.com/2018/09/03/the-mythology-of-work-eight-myths-that-keep-your-eyes-on-the-clock-and-your-nose-to-the-grindstone"
 
-- title: What can a technologist do about climate change?
-  blurb: 'What can a technologist do about climate change?'
-  linktext: 'Worrydream'
+- title: "What can a technologist do about climate change?"
+  blurb: "What can a technologist do about climate change?"
+  linktext: "Worrydream"
   image: worrydream.jpeg
-  link: 'http://worrydream.com/ClimateChange/'
+  link: "http://worrydream.com/ClimateChange/"
 
-- title: This is your most important decision: 80,000 Hours
-  blurb: 'Why your career is your biggest opportunity to make a difference, and how you can use it best.'
-  linktext: '80,000 Hours'
+- title: "This is your most important decision: 80,000 Hours"
+  blurb: "Why your career is your biggest opportunity to make a difference, and how you can use it best."
+  linktext: "80,000 Hours"
   image: 80000hours.jpeg
-  link: 'https://80000hours.org/make-a-difference-with-your-career/'
+  link: "https://80000hours.org/make-a-difference-with-your-career/"
 
-- title: Why You Should Hate Your Job
-  blurb: 'Why You Should Hate Your Job: The case against the work ethic'
-  linktext: 'John Danaher'
+- title: "Why You Should Hate Your Job"
+  blurb: "Why You Should Hate Your Job: The case against the work ethic"
+  linktext: "John Danaher"
   image: iai.jpeg
-  link: 'https://iai.tv/articles/why-you-should-hate-your-job-auid-1075'
+  link: "https://iai.tv/articles/why-you-should-hate-your-job-auid-1075"
 
-- title: Why Carbon Capture Hasn’t Saved Us From Climate Change Yet.
-  blurb: 'Why Carbon Capture Hasn’t Saved Us From Climate Change Yet.'
-  link: 'https://fivethirtyeight.com/features/why-carbon-capture-hasnt-saved-us-from-climate-change-yet/'
-  linktext: FiveThirtyEight
+- title: "Why Carbon Capture Hasn’t Saved Us From Climate Change Yet."
+  blurb: "Why Carbon Capture Hasn’t Saved Us From Climate Change Yet."
+  linktext: "FiveThirtyEight"
   image: carboncapture.png
+  link: "https://fivethirtyeight.com/features/why-carbon-capture-hasnt-saved-us-from-climate-change-yet/"
 
-- title: Sustainable Energy Without The Hot Air
-  blurb: 'The “if-everyone” multiplying machine is a bad thing because it deflects people’s attention.'
-  linktext: 'Without The Hot Air'
-  link: 'http://www.withouthotair.com/c19/page_114.shtml'
+- title: "Sustainable Energy Without The Hot Air"
+  blurb: "The 'if-everyone' multiplying machine is a bad thing because it deflects people’s attention."
+  linktext: "Without The Hot Air"
   image: withoutTheHotAir.jpeg
+  link: "http://www.withouthotair.com/c19/page_114.shtml"
 
-- title: Tyranny of Work
-  blurb: 'Jobs have become, for so many, a relentless, unsatisfying toil. Why then does the work ethic still hold so much sway?'
-  linktext: 'Tyranny of Work'
-  link: 'https://aeon.co/essays/how-the-work-ethic-became-a-substitute-for-good-jobs'
+- title: "Tyranny of Work"
+  blurb: "Jobs have become, for so many, a relentless, unsatisfying toil. Why then does the work ethic still hold so much sway?"
+  linktext: "Tyranny of Work"
   image: tyrannyofwork.jpeg
+  link: "https://aeon.co/essays/how-the-work-ethic-became-a-substitute-for-good-jobs"
 
-- title: Dark Matter Labs
-  blurb: 'The invisible structures responsible for producing the majority of the built objects around us – this is all Dark Matter.'
-  linktext: 'Dark Matter Labs'
-  link: 'https://darkmatterlabs.org/About'
+- title: "Dark Matter Labs"
+  blurb: "The invisible structures responsible for producing the majority of the built objects around us – this is all Dark Matter."
+  linktext: "Dark Matter Labs"
   image: dmlabs.jpg
+  link: "https://darkmatterlabs.org/About"
 
-- title: Our World in Data
-  blurb: 'Workers have become far more productive, but their working hours are not dropping at the same rate.'
-  linktext: 'Our World in Data'
-  link: 'https://ourworldindata.org/working-hours'
-  image: workinghoursdata.jpg
+- title: "Our World in Data"
+  blurb: "Workers have become far more productive, but their working hours are not dropping at the same rate."
+  linktext: "Our World in Data"
+  image: workinghoursdata.png
+  link: "https://ourworldindata.org/working-hours"
 
-- title: Alternative Camden
-  blurb: 'Alternative Camden is a collective investment in a new model for local innovation and imagination.'
-  linktext: 'ALT CMD'
-  link: 'https://alternativecamden.com/About-1'
+- title: "Alternative Camden"
+  blurb: "Alternative Camden is a collective investment in a new model for local innovation and imagination."
+  linktext: "ALT CMD"
   image: altcmd.jpg
+  link: "https://alternativecamden.com/About-1"
 
-- title: Beyond Collective
-  blurb: 'The value in embracing an outlook based on facts, far outweighs directing anxiety about everything all the time.'
-  linktext: 'Beyond Collective'
-  link: 'https://medium.com/beyondinstitute/state-of-our-world-some-facts-part-1-6ad5155c8b21'
+- title: "Beyond Collective"
+  blurb: "The value in embracing an outlook based on facts, far outweighs directing anxiety about everything all the time."
+  linktext: "Beyond Collective"
   image: bg1.jpeg
+  link: "https://medium.com/beyondinstitute/state-of-our-world-some-facts-part-1-6ad5155c8b21"
+
+- title: "Otio Collective: Our Manifesto"
+  blurb: "Read our manifesto. Leave comments; poke holes in it."
+  linktext: "Otio Collective Manifesto"
+  image: seneca.jpeg
+  link: "https://docs.google.com/presentation/d/1-7sTahbW8kFGcHVyO3VyTbMjVis7JZN15MIYDTUIEpo/edit#slide=id.p"
