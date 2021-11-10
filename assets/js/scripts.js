@@ -31,9 +31,9 @@ $( window ).resize(function() {
 
 // Dynamically set bottom margin of body for sticky footer
 function stickyFooter() {
-  setTimeout (function () {
+  setTimeout (function() {
     var bodyBottomMargin = $("footer").outerHeight();
     console.log(bodyBottomMargin);
     $("body").css("margin-bottom", bodyBottomMargin);
-  }, 100);
+  }, 500);
 }
