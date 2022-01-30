@@ -26,7 +26,7 @@
   padding-top: 2rem;
   margin-bottom: 3rem;
   .link-tiles {
-    padding-bottom: 1rem;
+    padding: 2rem 0 1rem;
     border-bottom: $border;
     .link-tile {
       &:first-child {
@@ -46,7 +46,6 @@
 .lead {
   @extend h1 ;
   font-size: 1.4rem;
-  margin-bottom: 4rem;
 }
 .button {
   font-size: 0.8rem;
