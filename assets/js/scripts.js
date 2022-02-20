@@ -19,4 +19,16 @@ jQuery(document).ready(function($){
     $('.nav-container').toggleClass("menu-open");
   });
 
+  $(".footnote-ref").each(function(i){
+    var $footnotetext= $(this).attr("data-footnote-text");
+    var $footnotelinktext = $(this).attr("data-footnote-link-text");
+    var $footnotelink = $(this).attr("data-footnote-link");
+    var $footnoteref = i+1;
+    $(this).html('<a id="f' + $footnoteref + '" href="#footnote' + $footnoteref + '">' + $footnoteref + '</a>' );
+    // Create list of footnotes
+    $("#footnote-list").append(
+      '<li id="footnote' + $footnoteref + '">'+ $footnotetext +': <a target="_blank" href="'+ $footnotelink +'">'+ $footnotelinktext +'</a> <a class="footnote-return-link" href="#f'+ $footnoteref +'">&#8629;</a></li>'
+    );
+  });
+
 });

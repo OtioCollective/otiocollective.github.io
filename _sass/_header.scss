@@ -6,15 +6,15 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: $border;
-  padding: 2rem 0;
+  padding: 1.7rem 0;
 }
 .brand {
-  max-width: 6rem;
+  max-width: 5rem;
   img {
     margin-bottom: 0;
   }
   @include for-tablet-landscape-up {
-    max-width: 7rem;
+    max-width: 6rem;
   };
 }
 

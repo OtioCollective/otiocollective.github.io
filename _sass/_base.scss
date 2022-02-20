@@ -51,8 +51,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $headings-font-weight;
   margin-bottom: 2rem;
   max-width: 700px;
-  color: #000;
   line-height: 1.6;
+}
+
+h1 {
+  font-size: 28px;
+  @include for-tablet-portrait-up {
+    font-size: 32px;
+  };
 }
 
 h2 {
@@ -74,6 +80,14 @@ a {
   &:hover {
     color: lighten(#000, 20%);
     text-decoration: underline;
+  }
+}
+ol, ul, dl {
+  @extend p;
+  padding-left: 2rem;
+
+  li {
+    padding-left: 5px;
   }
 }
 li, dd, dt {
