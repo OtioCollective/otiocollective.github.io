@@ -7,7 +7,11 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: $border;
-  padding: 1.7rem 0;
+  padding: 10px 0;
+
+  @include for-tablet-portrait-up {
+    padding: 1.7rem 0;
+  };
 }
 
 .brand {
@@ -29,17 +33,17 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    gap: 10px;
     flex-direction: column-reverse;
 
     @include for-tablet-portrait-up {
+      gap: 10px;
       margin-left: auto;
       flex-direction: row;
       justify-content: flex-end;
     };
 
     li {
-      margin: 0 0 0 auto;
+      margin: 0 0 10px auto;
       padding: 0;
       display: block;
 
