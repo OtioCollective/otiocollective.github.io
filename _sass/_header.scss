@@ -1,6 +1,7 @@
 .site-header {
   background: #fff;
 }
+
 .navbar {
   @extend .flexbox;
   align-items: center;
@@ -8,7 +9,9 @@
   border-bottom: $border;
   padding: 1.7rem 0;
 }
+
 .brand {
+  flex: 0 0 40%;
   max-width: 5rem;
   img {
     margin-bottom: 0;
@@ -16,6 +19,43 @@
   @include for-tablet-landscape-up {
     max-width: 6rem;
   };
+}
+
+.header-links {
+  flex: 0 0 58%;
+
+  ul {
+    @extend .flexbox;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+    flex-direction: column-reverse;
+
+    @include for-tablet-portrait-up {
+      margin-left: auto;
+      flex-direction: row;
+      justify-content: flex-end;
+    };
+
+    li {
+      margin: 0 0 0 auto;
+      padding: 0;
+      display: block;
+
+      @include for-tablet-portrait-up {
+        margin: 0;
+      };
+    }
+  }
+
+  .button {
+    margin-left: 20px;
+  }
+}
+
+.nav-link {
+  padding: 2px 20px;
 }
 
 // Hamburger with thanks to Jonathon Suh
